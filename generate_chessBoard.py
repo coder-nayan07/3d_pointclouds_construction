@@ -4,8 +4,8 @@ import cv2
 def generate_chessboard_with_margins(
     img_width=2560,
     img_height=1600,
-    squares_x=5,  # Total number of squares (including both black and white)
-    squares_y=4,
+    squares_x=10,  # Total number of squares (including both black and white)
+    squares_y=7,
     margin_ratio=0.1,  # 10% margins on each side
     output_file="chessboard_with_margins.png"
 ):
